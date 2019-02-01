@@ -3,10 +3,13 @@ width : 950px;
 margin : auto;
 font-size : 15px;
 font-family : 'Source sans Pro',Calibri, Tahama, sans-serif;
+border: solid 2px blue;
+padding :15px;
+background-color: PowderBlue;
 }
 
 .infoperso_photo{
-height : 300px;}
+height : 290px;}
 
 .infoperso{
 float : left;
@@ -24,19 +27,19 @@ height: 320px;
 }
 .separe2{
 width: 100%;
-height: 512px;
+height: 405px;
 }
 .separe3{
 width: 100%;
-height: 100px;
+height: 90px;
 }
 .separe4{
 width: 100%;
-height: 100px;
+height: 90px;
 }
 .separe5{
 width: 100%;
-height: 100px;
+height: 90px;
 }
 .separe6{
 width: 100%;
@@ -44,7 +47,7 @@ height: 150px;
 }
 .separe7{
 width: 100%;
-height: 150px;
+height: 145px;
 }
 
 .gauche{
@@ -72,8 +75,24 @@ h3 {
 	text-align:center;
 }
 h4 {
-	color:orange;
+	color:DarkOrange;
 	text-align:center;
+	padding: 20px;
 }
 body{background-color : PaleTurquoise;}
+
+.mdl-slider__container {
+    background-color: Khaki !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
+
+.menu{
+	margin-top: 30px;
+	text-align: center;
+}
+
+	
 
