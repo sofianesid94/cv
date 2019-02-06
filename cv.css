@@ -1,5 +1,3 @@
-
-
 .page{
 width : 950px;
 margin : auto;
@@ -81,7 +79,7 @@ h4 {
 	text-align:center;
 	padding: 20px;
 }
-body{background-color : WhiteSmoke;}
+body{background-color : LightCyan;}
 
 .mdl-slider__container {
     background-color: Khaki !important; /* Met le fond de la barre en blanc */
