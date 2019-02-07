@@ -10,7 +10,9 @@ background-color: PowderBlue;
 }
 
 .infoperso_photo{
-height : 290px;}
+height : 290px;
+;
+}
 
 .infoperso{
 float : left;
@@ -83,14 +85,17 @@ h4 {
 	border:solid 2px blue;
 	width: 950px;
 }
-body{background-color : LightCyan;}
+body{background-image: url(7001_l.jpg);
+}
 
 .mdl-slider__container {
     background-color: SkyBlue !important; /* Met le fond de la barre en blanc */
     position: fixed !important; /* Permet de définir la position de la barre comme fixe */
     top: 0; /* Défini la postion de la barre en haut */
     z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
-    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+    width: 100vw ; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+   
+
 }
 
 .menu{
@@ -101,7 +106,7 @@ body{background-color : LightCyan;}
 	width: 950px;
 	margin-bottom: 10px;
 	padding: 10px;
-	
+	background: PowderBlue;	
 }
 
 	
